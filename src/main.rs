@@ -1,6 +1,6 @@
-use study_rust::hosting;
+use study_rust::hosting::add_to_waitlist;
 
 fn main() {
     println!("Hello, world!");
-    hosting::add_to_waitlist();
+    add_to_waitlist();
 }
